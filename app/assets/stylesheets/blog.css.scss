@@ -1,0 +1,44 @@
+body {
+  color: #526066;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+.banner {
+  background: transparent url('banner.png') 0 0 no-repeat fixed;
+  text-align: center;
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  margin-bottom: 3em;
+  display: table;
+}
+
+.banner-head {
+  display: table-cell;
+  vertical-align: middle;
+  margin-bottom: 0;
+  text-transform: lowercase;
+  letter-spacing: 0.10em;
+  font-size: 4em;
+  font-weight: 500;
+  color: white;
+  text-shadow: 0 1px 1px black;
+}
+
+.pure-menu {
+  box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+}
+
+.post-title {
+  font-size: 2em;
+  color: #222;
+  margin-bottom: 0.2em;
+}
