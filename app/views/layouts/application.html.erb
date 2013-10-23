@@ -4,16 +4,19 @@
   <title>strieber.org</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 
-<body class="bg-color-5">
+<body class="bg-color-1">
   <%= render 'layouts/header' %>
   <%= render 'layouts/banner' %>
   <div class="pure-g">
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
   </div>
 </body>
 </html>

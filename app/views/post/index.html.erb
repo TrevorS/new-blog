@@ -1,16 +1,14 @@
-<div class="pure-u-1-3">
-  <div class="posts">
-    <% @posts.each do |post| %>
-      <div class="post">
+<section class="posts">
+  <% @posts.each do |post| %>
+    <div class="post">
 
-        <h2 class="post-title">
-          <%= get_post_link(post, 'fg-color-2') %>
-        </h2>
+      <h2 class="post-title">
+        <%= get_post_link(post, 'fg-color-4') %>
+      </h2>
 
-        <div class="post-creation">
-          <%= get_post_creation(post) %>
-        </div>
+      <div class="post-creation">
+        <%= get_post_creation(post) %>
       </div>
-    <% end %>
-  </div>
-</div>
+    </div>
+  <% end %>
+</section>

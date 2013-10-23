@@ -1,33 +1,37 @@
 .fg-color-1 {
-  color: #594F4F;
+  color: #E5EDB8;
 }
 .fg-color-2 {
-  color: #547980;
+  color: #ADB85F;
 }
 .fg-color-3 {
-  color: #45ADA8;
+  color: #837B47;
 }
 .fg-color-4 {
-  color: #9DE0AD;
+  color: #5A3D31;
 }
 .fg-color-5 {
-  color: #E5FCC2;
+  color: #300018;
 }
 
 .bg-color-1 {
-  background-color: #594F4F;
+  background-color: #E5EDB8;
 }
 .bg-color-2 {
-  background-color: #547980;
+  background-color: #ADB85F;
 }
 .bg-color-3 {
-  background-color: #45ADA8;
+  background-color: #837B47;
 }
 .bg-color-4 {
-  background-color: #9DE0AD;
+  background-color: #5A3D31;
 }
 .bg-color-5 {
-  background-color: #E5FCC2;
+  background-color: #300018;
+}
+
+body {
+  padding-top: 39px;
 }
 
 a {
@@ -39,11 +43,16 @@ a:focus {
   text-decoration: underline;
 }
 
+h1 {
+  font-family: 'Gentium Book Basic', serif;
+  font-weight: 700;
+}
+
 .banner {
   background: transparent url('banner.png') 0 0 no-repeat fixed;
   text-align: center;
   background-size: cover;
-  height: 250px;
+  height: 180px;
   width: 100%;
   margin-bottom: 3em;
   display: table;
@@ -63,6 +72,12 @@ a:focus {
 
 .pure-menu {
   box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+}
+
+.container {
+  width: 950px;
+  margin: 0 auto;
+  letter-spacing: 2px;
 }
 
 .post-title {
